@@ -1,0 +1,19 @@
+name:                prob-slice
+version:             0.1.0.0
+author:              "Joe Qian"
+maintainer:          "qzy@g.ucla.edu"
+description:         Probabilistic Programs Slicing
+ghc-options:         -Wall
+
+dependencies:
+- base
+- mwc-random
+- mtl
+- groom
+- transformers
+- errors
+- containers
+- lens
+
+library:
+  source-dirs: src
